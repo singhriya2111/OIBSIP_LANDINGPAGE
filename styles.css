@@ -1,0 +1,294 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #3b3a30; 
+    color: #ccc; 
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+header {
+    background-color: #8b0000; 
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #fff; 
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section Styling */
+
+#hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff; 
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #fff; 
+}
+
+.btn {
+    display: inline-block;
+    background-color: #cc5500; 
+    color: #fff; 
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: #ff6600; 
+}
+
+
+#about {
+    background-color: #800000; 
+    padding: 100px 0;
+    color: #fff; 
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+
+
+#menu {
+    background-color: #ffa500; 
+    padding: 100px 0;
+    color: #333; 
+}
+
+.menu-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.menu-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+
+.menu-item {
+    background-color: #cc5500; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.menu-item p {
+    font-size: 1rem;
+}
+
+.menu-item span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
+
+#contact {
+    background-color: #8b0000; 
+    padding: 100px 0;
+    color: #fff; 
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Footer Styling */
+
+footer {
+    background-color: #8b0000; 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    header nav ul li a {
+        padding: 8px 12px;
+    }
+
+    .hero-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    .about-content h2 {
+        font-size: 2rem;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+    }
+
+    .menu-content h2 {
+        font-size: 2rem;
+    }
+
+    .menu-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .menu-item p {
+        font-size: 0.9rem;
+    }
+
+    .menu-item span {
+        font-size: 1rem;
+    }
+
+    .contact-content h2 {
+        font-size: 2rem;
+    }
+
+    .contact-content p {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+
+#menu {
+    background-color: #ffa500; 
+    padding: 100px 0;
+    color: #333; 
+}
+
+.menu-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.menu-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
